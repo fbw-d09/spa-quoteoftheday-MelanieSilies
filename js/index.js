@@ -13,4 +13,14 @@ const quotes = [
     'We cannot solve our problems with the same thinking we used when we created them.'
   ];
 
-// Write your Javascriot code here
+// Write your Javascript code here
+const quoteParagraph = document.getElementById('quote');
+const button = document.querySelector('button');
+
+function randomQuote() {
+  const randomIndex = Math.floor(Math.random() * quotes.length);
+  quoteParagraph.innerText = quotes[randomIndex];
+
+}
+
+button.addEventListener('click', randomQuote);

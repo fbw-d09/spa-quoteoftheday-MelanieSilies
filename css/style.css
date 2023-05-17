@@ -1,1 +1,17 @@
 /* Add your styles here */
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1 {
+    text-align: center;
+}
+
+button {
+    margin: 0 auto;
+}
+
+#quote {
+    border: 1px solid black;
+    height: 30px;
+    text-align: center;
+}
